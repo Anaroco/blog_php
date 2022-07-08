@@ -1,0 +1,55 @@
+/*
+Tenemos 2 aproximacióes:
+- Mobile first
+    Nuestro css sin media queries es el estilo para los dispostivos pequeños
+    Y añadimos las medias para ajustar cosas en pantallas más grandes
+    @media screen and (min-width: 700px)
+- Desktop first
+    Nuestro css sin media queries es el estilo para los dispostivos grandes
+    Y añadimos las medias para ajustar cosas en pantallas más pequeñas
+    @media screen and (max-width: 700px)
+*/
+@media screen and (min-width: 1600px) {
+    /* body { background-color: rgb(74, 74, 231); } */
+}
+@media screen and (max-width: 1200px) {
+    /* body { background-color: rgb(192, 231, 74); } */
+}
+@media screen and (max-width: 960px) {
+    /* body { background-color: rgb(65, 242, 68); } */
+}
+/* @media screen and (max-width: 960px) and (min-width:741px) {
+    body { background-color: rgb(65, 242, 68); }
+} */
+
+@media screen and (max-width: 740px) {
+    /* body { background-color: green; } */
+    #cabecera header img { max-width: 120px; }
+    #wrapper { display:block; }
+    #wrapper > * { display:block; width: 100%; }
+}
+
+@media screen and (max-width: 600px) {
+    #cabecera header img { display: none; }
+    /* body { background-color: rgb(91, 225, 169); } */
+    nav#social { position: static; margin-top: 10px; }
+
+    #menu-movil { display: block; }
+    #nav-idiomas { margin-right: 50px; }
+
+    
+    #nav-principal > ul { position: absolute; top: 0; right: -320px; width: 300px; height: 100vh; padding-top: 10px; 
+        background-color: white; box-shadow: 0 -1px 3px #666; z-index: 50; transition: 0.5s; }
+    #nav-principal:hover > ul { right: 0; }
+    #nav-principal ul li.titulo { display: block; }
+    #nav-principal ul li.titulo h1 { text-align: center; font-size: 2.4rem; font-weight: bold; line-height: 1.4em; }
+
+    #nav-principal ul li { display: block; border-bottom: 1px solid #666; }
+    #nav-principal ul ul { position: relative; margin-left: 15px;}
+
+}
+
+@media screen and (max-width: 480px) {
+    /* body { background-color: rgb(166, 245, 244); } */
+    .paginacion a { margin: 0; line-height: 24px; min-width: 30px; }
+}
