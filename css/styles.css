@@ -3,7 +3,8 @@
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1500px;
+    height: auto;
     margin: 0 auto;
     background-color: #E4E4E4;
 
@@ -34,6 +35,7 @@
 #nav-idiomas {
     padding: 10px 7px;
     text-align: right;
+    margin-right: 40px;
 }
 
 #nav-idiomas a {
@@ -288,17 +290,18 @@ nav#social a {
 
 }
 
-#mapa {
+ #mapa {
+    
     margin-top: 20px;
     display: inline;
-    width: 48%;
-    height: 52vh;
+    width: 52%;
+    height: 50vh;
     margin-right: 10px;
     box-shadow: 0 4px 8px 0 rgba(33, 157, 157, 255), 0 10px 10px 0 rgba(249, 170, 29, 255);
     padding: 5px;
     float: right;
 
-}
+} 
 
 .colorBoton {
     color: rgb(19, 36, 219);
@@ -307,4 +310,25 @@ nav#social a {
 .form-group {
     align-items: center;
     padding-bottom: 150px;
+}
+
+.bienvenida{
+    float: right;
+    margin-right: 40px;
+}
+
+.container2{
+/* background-color: aqua; */
+margin-top: 20px;
+    display: inline;
+    width: 40%;
+    height: 50vh;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px 0 rgba(33, 157, 157, 255), 0 10px 10px 0 rgba(249, 170, 29, 255);
+    padding: 5px;
+    float: left;
+}
+
+.footerdown{
+    padding-top: 150px;
 }

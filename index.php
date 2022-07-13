@@ -1,17 +1,25 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+//echo sesion_id()
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    
-<?php include 'includes/estilos.php' ?>
+
+<?php include 'includes/estilos.php'?>
 </head>
 
 <body>
 
-<?php include 'includes/cabecera.php' ?>
-<?php include 'includes/nav.php' ?>
+<?php include 'includes/cabecera.php'?>
+<?php include 'includes/nav.php'?>
 
-    <div class="container">
+<div class="container">
 
         <main id="wrapper" class="zona">
             <section id="cnt">
@@ -61,8 +69,7 @@
                 </article>
             </aside>
         </main>
-        <?php include "includes/footer.php";?>
-       
+       <?php include "includes/footer.php";?>
     </div>
   </body>
 
