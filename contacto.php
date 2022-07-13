@@ -40,6 +40,7 @@
                     <input type="email" id="email2" name="email2" onchange="compruebaEmails()">
                 </p>
                 <br>
+                <br>
                 <p>
                 <p>Categorias</p>
                 <label for="check1">Mascotas</label>
@@ -48,12 +49,15 @@
                 <input type="checkbox" id="check2" name="categorias[]">
                 </p>
                 <br>
+
                 <button class="colorBoton" type="submit">Enviar</button>
                 </p>
+                
             </div>
+            <?php include "includes/footer.php";?>
         </form>
 
-  
+        
 
     <div id="mapa">
 
