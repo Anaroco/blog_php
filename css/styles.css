@@ -330,5 +330,11 @@ margin-top: 20px;
 }
 
 .footerdown{
-    padding-top: 150px;
+    padding-top: 30px;
+}
+
+.cuadrado{
+    background-color: rgb(244, 237, 219);
+    padding: 50px;
+   
 }

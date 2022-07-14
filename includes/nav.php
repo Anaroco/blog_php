@@ -26,6 +26,9 @@
                     <a href="contacto.php">Contacto</a>
                  
                 </li>
+                <li>
+            <a href="administrador.php">Admon noticias</a>
+        </li>
                 
 
                 <li>
@@ -34,8 +37,8 @@
                     <li><a href="multiplicar.php">Multiplicar</a></li>
                         <li><a href="funciones.php">Funciones</a></li>
                         <li><a href="array.php">Array</a></li>
-                        <!-- <li><a href="">Local</a></li>
-                        <li><a href="">Internacional</a></li> -->
+                        <li><a href="ejemplo-frm.php">Ejemplo Formulario</a></li>
+                        
                         
                     </ul>
                 </li>

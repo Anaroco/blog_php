@@ -63,15 +63,16 @@ if (isset($_REQUEST["btnContactar"])) {
                     <p>Anexo: <?=$contacto["anexo"]?></p>
                     <p><a href="contacto.php">Volver</a></p>
                 <?php } else {?>
+                    <div class="cuadrado"><center>
                     <form action="" method="POST" enctype="multipart/form-data">
-                    <!-- <div class="form-group"> -->
+                        <div>
                             <label for="nombre">Nombre</label>
                             <input type="text" name="nombre" id="nombre" required>
-
+                        </div><br>
                         <div>
-                            <label for="email">Email</label>
+                            <label for="email">Email.....</label>
                             <input type="email" name="email" id="email" required>
-                        </div>
+                        </div><br>
                         <div>
                             <label for="tipoContacto">Tipo contacto</label>
                             <select name="tipoContacto" id="tipoContacto" required>
@@ -79,30 +80,32 @@ if (isset($_REQUEST["btnContactar"])) {
                                 <option value="2">Queja</option>
                                 <option value="3">Reclamación</option>
                             </select>
-                        </div>
+                        </div><br>
                         <div>
                             <label for="asunto">Asunto</label>
                             <input type="text" name="asunto" id="asunto" required>
-                        </div>
+                        </div><br>
                         <div>
                             <label for="mensaje">Mensaje</label>
                             <textarea name="mensaje" id="mensaje" required></textarea>
-                        </div>
+                        </div><br><br>
                         <div>
-                            <label for="anexo">Anexo</label>
+                            <label for="anexo">Foto de tu Gato</label>
                             <input type="file" name="anexo" id="anexo">
-                        </div>
+                        </div><br>
                         <div>
                             <input type="checkbox" name="heLeido" id="heLeido" required>
                             <label class="withCheckbox" for="heLeido">He leido y acepto ...</label>
-                        </div>
+                        </div><br>
                         <div class="cntBotones">
                             <input type="submit" class="button" name="btnContactar" value="Contactar">
                         </div>
-                        <div class="footerdown">
+                        </div>
+    <div class="footerdown">
     <?php include "includes/footer.php";?>
     </div>
                     </form>
+                   
                 <?php }?>
                 
     </div>

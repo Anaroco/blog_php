@@ -39,17 +39,10 @@ if (session_status() === PHP_SESSION_NONE) {
                         repudiandae maxime accusamus unde nobis.</p>
                     <p class="leermar"><a href="">Leer más</a></p>
                 </article>
-                <nav class="paginacion">
-                    <ul>
-                        <li><a href="" class="disabled">&lt; Prev</a></li>
-                        <li><a href="">1</a></li>
-                        <li><a href="">2</a></li>
-                        <li><a href="">3</a></li>
-                        <li><a href="">4</a></li>
-                        <li><a href="contacto.php">Next &gt;</a></li>
-                    </ul>
-                </nav>
+
+                <?php include 'includes/paginador.php'?>
             </section>
+            
             <aside id="barraLateral">
                 <article class="noticia relacionada">
                     <h1>Título de la noticia 1</h1>
