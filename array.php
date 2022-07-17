@@ -89,15 +89,6 @@
     echo "<br>";
     echo "<br><br>";
 
-    /*
-    $var = ($index ? $index : "No existe");
-    if($index) {
-        $var = $index;
-    } else {
-        $var = "No existe";
-    }
-    */
-
 
     shuffle($miArrayNombres);
     echo "Mi array de nombres ordenado ramdon es <br>";
@@ -111,10 +102,6 @@
     print_r($miArrayNombres);
     echo "<br><br>";
 
-
-/*
-* 
-*/
 
     echo "== Ejercicio 3 ==<br><br>";
     $str = "manzana pera limón sandia melón";
@@ -133,11 +120,6 @@
     $str = implode(" ", $miArrDeStr);
     echo " La nueva cadena str es -> $str <br>";
 
-    /*
-    unset($miArrDeStr[5]);
-    $item = array_shift($miArrDeStr);
-    array_splice($miArrDeStr, 5, 0, array("asdf"));
-    */
 
     echo "<br><br>";
 ?>

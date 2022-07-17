@@ -37,7 +37,7 @@
                     <li><a href="multiplicar.php">Multiplicar</a></li>
                         <li><a href="funciones.php">Funciones</a></li>
                         <li><a href="array.php">Array</a></li>
-                        <li><a href="ejemplo-frm.php">Ejemplo Formulario</a></li>
+                        <li><a href="formulario.php">Ejemplo Formulario</a></li>
                         
                         
                     </ul>

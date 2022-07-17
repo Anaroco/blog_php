@@ -18,25 +18,7 @@ function findAllNoticias($conn, $page = 1, $resPorPage=ROWS_PER_PAGE) {
 
     $noticias = [];
     if($rs->num_rows>0) {
-        // recorremos todos los resultados y los añadimos en el array
-
-        // while($row = $rs->fetch_assoc()) {
-        
-        //     Si los nombres de las cols no se corresponden con los nombres de las claves 
-        //     que queremos manejar tenemos que hacer algo tal que así
-             
-        //     array_push($noticias, array(
-        //         "titulo" => $row["titulo"],
-        //         "contenido" => $row["contenido"],
-        //         "imagen" => $row["imagen"],
-        //         "fecha" => $row["fecha"]
-        //     ));
-        
-        //     Si los nombres coinciden podría ser más sencillo
-        //     array_push($noticias, $row);
-        // }
-
-        //también podemos llamar directamente al método fetch_all que nos hace algo similar al while de arriba
+    
         $noticias = $rs->fetch_all(MYSQLI_ASSOC);
     }
 
