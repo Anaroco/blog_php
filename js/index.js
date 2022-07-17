@@ -4,22 +4,8 @@ if (typeof cordova == "undefined") {
 }
 
 function onDeviceReady() {
-    // Cordova is now initialized. Have fun!
+    
     console.log('Running cordova app');
-
-    // var mapDiv = document.getElementById("cntMapa");
-    // var options = {
-    //     camera: {
-    //       target: {lat: 42.8858658, lng: -8.5402265},
-    //       zoom: 16
-    //     }
-    //   };
-    //   var map = plugin.google.maps.Map.getMap(mapDiv, options)
-
-    
-
-    
-
 }
 
 let map;

@@ -23,14 +23,6 @@
     display: table-cell;
 }
 
-/* #cabecera { background: #ccc; } 
-#nav-principal { background: #5f2; } 
-#wrapper { background: #389; }
-#wrapper article:nth-child(2n-1) { background-color: aqua; }
-#wrapper article:nth-child(2n) { background-color: bisque; }
-#cnt { background: #734; }
-#barraLateral { background: rgb(236, 128, 155); } 
-#footer { background: #443322; } */
 
 #nav-idiomas {
     padding: 10px 7px;

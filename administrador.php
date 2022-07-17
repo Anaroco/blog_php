@@ -7,16 +7,14 @@ $accion = $_GET["accion"] ?? "";
 $id = $_REQUEST["id"] ?? "";
 $showForm = false;
 
-//Esto sería Control
 if($accion=="nueva" || $accion=="editar") {
     $showForm = true;
-    //preparamos los datos para pintar el formulario
+    
     $noticia = array("id"=>"","titulo"=>"", "contenido"=>"");
     if($id!="") {
         $noticia = findNoticiaById($conn, $id);
     }
 
-    //Recibimos formulario
     if(isset($_REQUEST["btnGuardar"])) {
         $noticia["titulo"]= $_REQUEST["titulo"] ?? "";
         $noticia["contenido"] = $_REQUEST["contenido"] ?? "";
@@ -44,8 +42,6 @@ if($accion=="nueva" || $accion=="editar") {
 }
 
 ?>
-
-<!--  Despues de esto se considera Vista -->
 
 <!DOCTYPE html>
 <html lang="en">
